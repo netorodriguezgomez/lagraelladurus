@@ -1,29 +1,13 @@
 <!doctype html>
-<html lang="es">
+<html lang="ca">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Entorno Web Base</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>La Graella d’Urús</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <main class="container">
-      <h1>✅ Entorno web listo</h1>
-      <p>
-        Esta plantilla incluye HTML, CSS y JavaScript para empezar a construir tu
-        proyecto web.
-      </p>
-
-      <section class="card">
-        <h2>Contador de prueba</h2>
-        <p id="counter">0</p>
-        <div class="actions">
-          <button id="increment">Incrementar</button>
-          <button id="reset">Reiniciar</button>
-        </div>
-      </section>
-    </main>
-
-    <script src="app.js"></script>
+  <body class="bg-stone-950">
+    <div id="root"></div>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

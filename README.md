@@ -1,15 +1,16 @@
-# Entorno web base
+# La Graella d’Urús — Entorn web
 
-Plantilla mínima para iniciar un proyecto web con:
+Landing web en **React + Framer Motion** amb estilitzat mitjançant **Tailwind CSS (CDN)**.
 
-- HTML (`index.html`)
-- CSS (`styles.css`)
-- JavaScript (`app.js`)
+## Arxius principals
 
-## Ejecutar en local
+- `index.html`: punt d'entrada i càrrega de Tailwind CDN.
+- `app.js`: aplicació React amb seccions, targetes i blocs d'imatge.
+
+## Executar en local
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Luego abre: <http://localhost:8000>
+Obre `http://localhost:8000` al navegador.

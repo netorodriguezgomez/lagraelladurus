@@ -1,11 +1,11 @@
-# La Graella d’Urús — Entorn web
+# La Graella d’Urús — Landing web
 
-Landing web en **React + Framer Motion** amb estilitzat mitjançant **Tailwind CSS (CDN)**.
+Versió funcional sense build step (HTML + Tailwind CDN + JavaScript).
 
-## Arxius principals
+## Fitxers
 
-- `index.html`: punt d'entrada i càrrega de Tailwind CDN.
-- `app.js`: aplicació React amb seccions, targetes i blocs d'imatge.
+- `index.html`: tota l'estructura visual de la landing.
+- `app.js`: animació suau d'entrada quan les seccions entren en pantalla.
 
 ## Executar en local
 
